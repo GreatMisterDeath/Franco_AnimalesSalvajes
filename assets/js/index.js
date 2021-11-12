@@ -53,7 +53,7 @@ document.getElementById("btnRegistrar").addEventListener("click", async () =>
         alert("Añada un comentario acerca del animal")
         return
     }
-
+ 
     let setAudioTag
 
     switch (animalTipo)
