@@ -35,7 +35,7 @@ document.getElementById("btnRegistrar").addEventListener("click", async () =>
     let animalEdad = document.getElementById('edad').value;
     let animalComentarios = document.getElementById('comentarios').value;
 
-    let animalUrl = await fetch("/animales.json")
+    let animalUrl = await fetch("/Franco_AnimalesSalvajes/animales.json")
     let animalJson = await animalUrl.json()
 
     if (animalTipo == "Seleccione un animal")
