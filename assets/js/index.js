@@ -11,8 +11,8 @@ const autoExec = (() =>
 document.getElementById("animal").addEventListener("click", () =>
 {
     let optionValue = document.getElementById('animal').value;
-
-    if (optionValue == "Seleccione un animal")
+ 
+    if (optionValue == "Seleccione un animal")    
         return
 
     let previewImage
