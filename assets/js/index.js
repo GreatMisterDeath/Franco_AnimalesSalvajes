@@ -1,4 +1,4 @@
-import { Animales, Leon, Lobo, Oso, Serpiente, Aguila } from "./animales.js"
+import { Animales, Leon, Lobo, Oso, Serpiente, Aguila } from "./Franco_AnimalesSalvajes/animales.js"
 
 var myAnimalsavedCards = ""
 var myAnimal = []
